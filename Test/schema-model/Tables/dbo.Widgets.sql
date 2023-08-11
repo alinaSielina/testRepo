@@ -2,7 +2,8 @@ CREATE TABLE [dbo].[Widgets]
 (
 [RecordID] [int] NOT NULL IDENTITY(1, 1),
 [Description] [varchar] (50) NULL,
-[SKU] [varchar] (20) NULL
+[SKU] [varchar] (20) NULL,
+[Date] [datetime] NULL
 )
 GO
 ALTER TABLE [dbo].[Widgets] ADD CONSTRAINT [PK_Widgets] PRIMARY KEY NONCLUSTERED ([RecordID])
