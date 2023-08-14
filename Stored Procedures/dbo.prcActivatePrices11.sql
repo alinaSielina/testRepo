@@ -3,7 +3,7 @@ GO
 SET ANSI_NULLS ON
 GO
 
-CREATE PROCEDURE [dbo].[prcActivatePrices]  AS
+CREATE PROCEDURE [dbo].[prcActivatePrices11]  AS
 
 UPDATE WidgetPrices SET Active='N' WHERE GetDate()<DateValidTo OR GetDate()>DateValidFrom
 UPDATE WidgetPrices SET Active='Y' WHERE GetDate()>DateValidFrom OR GetDate()<=DateValidFrom
