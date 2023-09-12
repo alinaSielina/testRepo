@@ -1,2 +1,3 @@
-CREATE USER [WebUser] FOR LOGIN [WebUser]
+CREATE USER [WebUser] 
+FOR LOGIN [WebUser]
 GO
